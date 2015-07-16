@@ -1,0 +1,10 @@
+title: The Bureau of Investigative Journalism
+description: The Bureau of Investigative Journalism pursues research, investigations, reporting and analysis to help educate the public about the realities of power.
+url: http://www.thebureauinvestigates.com/
+
+address: The Bureau of Investigative Journalism, PO BOX 73125, London, EC1P 1GJ
+email: info@thebureauinvestigates.com
+phone: 079 6946 6285
+
+# Build settings
+markdown: kramdown
