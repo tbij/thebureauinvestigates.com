@@ -16,20 +16,18 @@ body {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
     margin: 0;
-    z-index: 1;
+    text-align: center;
 }
 
 h1 img {
-    width: 250px;
+    width: 75%;
+    padding-top: 40px;
 }
 
 nav {
-    font-size: 14px;
-    text-align: right;
+    font-size: 16px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -45,29 +43,53 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     padding: 0;
+    vertical-align: middle;
 }
 
 nav ul li a {
-    padding: 20px;
+    margin: 20px;
     color: inherit;
     font-weight: bold;
     text-decoration: none;
 }
 
-nav ul li a.donate {
-    color: #9c2d2b;
+nav ul li a.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    padding: 7px;
+    border-radius: 100%;
+    background-position: center;
+}
+
+nav ul li a.twitter.icon {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iLTIgLTIgMzIgMzIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMS4zIDEwLjV2LjVjMCA0LjctMy41IDEwLjEtOS45IDEwLjEtMiAwLTMuOC0uNi01LjMtMS42LjMgMCAuNi4xLjguMSAxLjYgMCAzLjEtLjYgNC4zLTEuNS0xLjUgMC0yLjgtMS0zLjMtMi40LjIgMCAuNC4xLjcuMWwuOS0uMWMtMS42LS4zLTIuOC0xLjgtMi44LTMuNS41LjMgMSAuNCAxLjYuNC0uOS0uNi0xLjYtMS43LTEuNi0yLjkgMC0uNi4yLTEuMy41LTEuOCAxLjcgMi4xIDQuMyAzLjYgNy4yIDMuNy0uMS0uMy0uMS0uNS0uMS0uOCAwLTIgMS42LTMuNSAzLjUtMy41IDEgMCAxLjkuNCAyLjUgMS4xLjgtLjEgMS41LS40IDIuMi0uOC0uMy44LS44IDEuNS0xLjUgMS45LjctLjEgMS40LS4zIDItLjUtLjQuNC0xIDEtMS43IDEuNXoiLz48L3N2Zz4=);
+    background-color: #03b3ee;
+}
+
+nav ul li a.twitter.icon:hover {
+    background-color: #028dbc;
+}
+
+nav ul li a.facebook.icon {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iLTIgLTIgMzIgMzIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNy45IDE0aC0zdjhIMTJ2LThoLTJ2LTIuOWgyVjguN0MxMiA2LjggMTMuMSA1IDE2IDVjMS4yIDAgMiAuMSAyIC4xdjNoLTEuOGMtMSAwLTEuMi41LTEuMiAxLjN2MS44aDNsLS4xIDIuOHoiLz48L3N2Zz4=);
+    background-color: #3067a3;
+}
+
+nav ul li a.facebook.icon:hover {
+    background-color: #244e7c;
 }
 
 nav ul li a:hover {
-    background: #e9e8e8;
+    color: #9c2d2b;
 }
-
 
 .featured {
     position: relative;
-    height: 650px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -106,6 +128,7 @@ nav ul li a:hover {
 
 .current h2 {
     margin: 20px;
+    color: #9c2d2b;
     font-size: 25px;
 }
 
@@ -157,6 +180,7 @@ nav ul li a:hover {
 
 .latest h2 {
     margin: 20px;
+    color: #9c2d2b;
     font-size: 25px;
 }
 
