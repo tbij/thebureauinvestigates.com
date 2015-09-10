@@ -350,6 +350,10 @@ footer a {
 
 @media (max-width: 900px) {
 
+    h1 img {
+        width: 95%;
+    }
+
     nav [for=menu] {
         display: inline-block;
         margin: 0 15px;
