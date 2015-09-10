@@ -120,6 +120,50 @@ nav ul li a:hover {
     font-size: 27px;
 }
 
+.newsletter {
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+    background: #9c2d2b;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin: 0;
+    color: white;
+}
+
+.newsletter p {
+    color: white;
+    margin: 0;
+}
+
+.newsletter form {
+    margin-top: 20px;
+}
+
+.newsletter form input {
+    width: 250px;
+    border: 1px solid white;
+    margin: 0;
+    padding: 10px;
+    font: inherit;
+}
+
+.newsletter form button {
+    border: 1px solid white;
+    margin: 0;
+    padding: 10px;
+    background: none;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background: white;
+    color: #9c2d2b;
+}
+
 .current {
     display: inline-block;
     width: 60%;
