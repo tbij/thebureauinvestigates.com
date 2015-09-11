@@ -1,5 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic);
 
 html {
     background: #e9e8e8;
@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     background: white;
     color: #0b0b0a;
-    font-family: Asap, Helvetica, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -52,7 +52,7 @@ nav ul li a {
     display: inline-block;
     padding: 10px 20px;
     color: inherit;
-    font-weight: bold;
+    font-weight: 900;
     text-decoration: none;
 }
 
@@ -110,11 +110,14 @@ nav ul li a:hover {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+    text-shadow: 0 0 4px black;
 }
 
 .featured div h3 {
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     font-size: 42px;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .featured div span {
@@ -170,6 +173,7 @@ nav ul li a:hover {
     margin: 20px;
     color: #9c2d2b;
     font-size: 25px;
+    font-weight: 900;
 }
 
 .current ol {
@@ -201,11 +205,14 @@ nav ul li a:hover {
     padding: 15px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+    text-shadow: 0 0 4px black;
 }
 
 .current ol li div h3 {
-    margin: 0 0 15px 0;
-    font-size: 22px;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .current ol li div span {
@@ -222,6 +229,7 @@ nav ul li a:hover {
     margin: 20px;
     color: #9c2d2b;
     font-size: 25px;
+    font-weight: 900;
 }
 
 .latest ol {
@@ -298,7 +306,7 @@ footer a {
     }
 
     .featured div h3 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .featured div span {
@@ -319,7 +327,7 @@ footer a {
     }
 
     .current ol li div h3 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .current ol li div span {
@@ -358,7 +366,7 @@ footer a {
         display: inline-block;
         margin: 0 15px;
         padding: 15px;
-        font-weight: bold;
+        font-weight: 900;
         text-decoration: none;
         cursor: pointer;
     }
