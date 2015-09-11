@@ -6,6 +6,7 @@ layout: front
   <a href="{{ site.data.front.featured.location }}">
     <img src="{{ site.data.front.featured.image }}" alt=""/>
     <div>
+      <time>{{ site.data.front.featured.date }}</time>
       <h3>{{ site.data.front.featured.title }}</h3>
       <span>{{ site.data.front.featured.trail }}</span>
     </div>
@@ -26,6 +27,7 @@ layout: front
       <a href="{{ story.location }}">
         <img src="{{ story.image }}" alt=""/>
         <div>
+          <time>{{ story.date }}</time>
           <h3>{{ story.title }}</h3>
           <span>{{ story.trail }}</span>
         </div>
@@ -39,9 +41,9 @@ layout: front
 {% for story in site.data.front.latest %}
     <li>
       <a href="{{ story.location }}">
+        <time>{{ story.date }}</time>
         <h3>{{ story.title }}</h3>
         <span>{{ story.trail }}</span>
-        <time>{{ story.date }}</time>
       </a>
     </li>
 {% endfor %}
