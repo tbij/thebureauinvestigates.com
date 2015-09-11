@@ -107,7 +107,7 @@ nav ul li a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px;
+    padding: 15px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     text-shadow: 0 0 4px black;
@@ -173,20 +173,20 @@ nav ul li a:hover {
 }
 
 .current h2 {
-    margin: 20px;
+    margin: 15px;
     color: #9c2d2b;
     font-size: 25px;
     font-weight: 900;
 }
 
 .current ol {
-    margin: 20px;
+    margin: 15px;
     padding: 0;
     list-style: none;
 }
 
 .current ol li {
-    margin: 20px 0;
+    margin: 15px 0;
     position: relative;
     height: 400px;
     overflow: hidden;
@@ -235,21 +235,21 @@ nav ul li a:hover {
 }
 
 .latest h2 {
-    margin: 20px;
+    margin: 15px;
     color: #9c2d2b;
     font-size: 25px;
     font-weight: 900;
 }
 
 .latest ol {
-    margin: 20px;
+    margin: 15px;
     padding: 0;
     list-style: none;
 }
 
 .latest ol li {
     background: #e9e8e8;
-    margin: 20px 0;
+    margin: 15px 0;
     padding: 10px;
 }
 
@@ -279,7 +279,7 @@ a {
 }
 
 footer {
-    padding: 20px;
+    padding: 15px;
     background: #0b0b0a;
     color: white;
 }
