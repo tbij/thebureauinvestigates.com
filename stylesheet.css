@@ -7,7 +7,7 @@ html {
 
 body {
     position: relative;
-    max-width: 2000px;
+    max-width: 1800px;
     margin: 0 auto;
     background: white;
     color: #0b0b0a;
@@ -90,7 +90,7 @@ nav ul li a:hover {
 
 .featured {
     position: relative;
-    height: 650px;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -107,8 +107,8 @@ nav ul li a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     text-shadow: 0 0 4px black;
 }
@@ -121,13 +121,13 @@ nav ul li a:hover {
 
 .featured div h3 {
     margin: 0 0 10px 0;
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 900;
     font-style: italic;
 }
 
 .featured div span {
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .current {
@@ -137,14 +137,14 @@ nav ul li a:hover {
 }
 
 .current h2 {
-    margin: 15px;
+    margin: 15px 30px;
     color: #9c2d2b;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
 }
 
 .current ol {
-    margin: 15px;
+    margin: 15px 30px 30px 30px;
     padding: 0;
     list-style: none;
 }
@@ -170,7 +170,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     padding: 15px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     text-shadow: 0 0 4px black;
 }
@@ -192,6 +192,25 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
+.who-we-are {
+    margin: 30px 0 15px 0;
+    background: #9c2d2b;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.who-we-are p {
+    margin: 0;
+}
+
+.who-we-are a {
+    display: block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+}
+
 .latest {
     display: inline-block;
     width: 40%;
@@ -199,14 +218,14 @@ nav ul li a:hover {
 }
 
 .latest h2 {
-    margin: 15px;
+    margin: 15px 30px 15px 0;
     color: #9c2d2b;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
 }
 
 .latest ol {
-    margin: 15px;
+    margin: 15px 30px 30px 0;
     padding: 0;
     list-style: none;
 }
@@ -246,6 +265,7 @@ nav ul li a:hover {
 
 .newsletter h2 {
     margin: 0;
+    font-size: 20px;
     color: white;
 }
 
@@ -256,6 +276,7 @@ nav ul li a:hover {
     margin: 15px 0 0 0;
     padding: 10px;
     font: inherit;
+    font-size: 16px;
 }
 
 .newsletter form button {
@@ -264,6 +285,7 @@ nav ul li a:hover {
     padding: 10px;
     background: none;
     font: inherit;
+    font-size: 16px;
     color: white;
     cursor: pointer;
 }
@@ -278,8 +300,9 @@ a {
 }
 
 footer {
-    padding: 15px;
+    padding: 15px 30px;
     background: #0b0b0a;
+    font-size: 14px;
     color: white;
 }
 
@@ -291,18 +314,10 @@ footer a {
     color: inherit;
 }
 
-@media (max-width: 1200px) {
-
-    body {
-        font-size: 14px;
-    }
+@media (max-width: 1280px) {
 
     .featured {
-        height: 500px;
-    }
-
-    .featured div {
-        padding: 15px;
+        height: 400px;
     }
 
     .featured div time {
@@ -310,24 +325,15 @@ footer a {
     }
 
     .featured div h3 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .featured div span {
         font-size: 20px;
     }
 
-    .current h2 {
-        margin: 15px;
-    }
-
-    .current ol {
-        margin: 15px;
-    }
-
     .current ol li {
-        height: 300px;
-        margin: 15px 0;
+        height: 325px;
     }
 
     .current ol li div time {
@@ -335,23 +341,11 @@ footer a {
     }
 
     .current ol li div h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .current ol li div span {
         font-size: 16px;
-    }
-
-    .latest h2 {
-        margin: 15px;
-    }
-
-    .latest ol {
-        margin: 15px;
-    }
-
-    .latest ol li {
-        margin: 15px 0;
     }
 
     .latest ol li time {
@@ -363,12 +357,12 @@ footer a {
     }
 
     .latest ol li span {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 
     h1 img {
         width: 95%;
@@ -410,17 +404,25 @@ footer a {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 928px) {
 
-    .featured {
-        height: 500px;
+    .current ol li {
+        height: 425px;
     }
 
-    .featured img {
+    .current ol li img {
         width: initial;
         height: 100%;
         left: -100%;
         right: -100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .featured {
+        height: 350px;
     }
 
     .featured div time {
@@ -432,31 +434,111 @@ footer a {
     }
 
     .featured div span {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .who-we-are {
+        font-size: 16px;
     }
 
     .current {
         width: 100%;
     }
 
+    .current h2 {
+        font-size: 18px;
+    }
+
+    .current ol li img {
+        width: 100%;
+        height: auto;
+    }
+
     .latest {
         width: 100%;
     }
 
+    .latest h2 {
+        margin: 15px 30px;
+        font-size: 18px;
+    }
+
+    .latest ol {
+        margin: 15px 30px 30px 30px;
+    }
+
+    .newsletter h2 {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
+
+    nav {
+        font-size: 14px;
+    }
+
+    .featured img {
+        width: initial;
+        height: 100%;
+        left: -100%;
+        right: -100%;
+    }
+
+    .featured {
+        height: 400px;
+    }
+
+    .featured div {
+        padding: 15px;
+    }
+
+    .who-we-are a {
+        padding: 15px;
+    }
+
+    .current h2 {
+        margin: 15px;
+    }
+
+    .current ol {
+        margin: 15px;
+    }
 
     .current ol li {
         height: 325px;
     }
 
-    .current ol li img {
-        position: relative;
+    .current ol li div {
+        top: 0;
     }
 
-    .current ol li div {
-        background: #0b0b0a;
+    .latest h2 {
+        margin: 15px;
+    }
+
+    .latest ol {
+        margin: 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .featured {
+        height: 475px;
+    }
+
+    .current ol li img {
+        width: initial;
+        height: 100%;
+        left: -100%;
+        right: -100%;
     }
 
 }
