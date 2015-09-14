@@ -130,10 +130,28 @@ nav ul li a:hover {
     font-size: 22px;
 }
 
+.who-we-are {
+    margin: 30px 0 15px 0;
+    background: #9c2d2b;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.who-we-are p {
+    margin: 0;
+}
+
+.who-we-are a {
+    display: block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+}
+
 .current {
     display: inline-block;
     width: 60%;
-    vertical-align: top;
 }
 
 .current h2 {
@@ -192,66 +210,93 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-.who-we-are {
-    margin: 30px 0 15px 0;
-    background: #9c2d2b;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.who-we-are p {
-    margin: 0;
-}
-
-.who-we-are a {
-    display: block;
-    padding: 15px 30px;
-    color: white;
-    text-decoration: none;
-}
-
-.latest {
+.secondary {
     display: inline-block;
     width: 40%;
     vertical-align: top;
 }
 
-.latest h2 {
-    margin: 15px 30px 15px 0;
+.secondary .podcast {
+    padding: 15px;
+    margin: 15px 30px 0 0;
+    background: #0b0b0a;
+}
+
+.secondary .podcast a {
+    text-decoration: none;
+}
+
+.secondary .podcast a.subscribe {
+    float: right;
+    margin: 3px 0;
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.secondary .podcast h2 {
+    margin: 0 0 5px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.secondary .podcast h3 {
+    margin: 0 0 10px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.secondary .podcast p {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.secondary .podcast time {
+    display: block;
+    margin: 10px 0 0 0;
+    color: white;
+    font-size: 14px;
+}
+
+.secondary .latest h2 {
+    margin: 30px 30px 15px 0;
     color: #9c2d2b;
     font-size: 22px;
     font-weight: 900;
 }
 
-.latest ol {
+.secondary .latest ol {
     margin: 15px 30px 30px 0;
     padding: 0;
     list-style: none;
 }
 
-.latest ol li {
+.secondary .latest ol li {
     background: #e9e8e8;
     margin: 15px 0;
     padding: 10px;
 }
 
-.latest ol li time {
+.secondary .latest ol li time {
     display: block;
     margin: 0 0 5px 0;
     font-size: 12px;
 }
 
-.latest ol li h3 {
+.secondary .latest ol li h3 {
     margin: 0 0 10px 0;
     font-size: 20px;
 }
 
-.latest ol li span {
+.secondary .latest ol li span {
     font-size: 16px;
 }
 
-.latest ol li a {
+.secondary .latest ol li a {
     display: block;
     color: inherit;
     text-decoration: none;
@@ -348,15 +393,36 @@ footer a {
         font-size: 16px;
     }
 
-    .latest ol li time {
+    .secondary .podcast h2 {
+        font-size: 14px;
+    }
+
+    .secondary .podcast a.subscribe {
+        margin: 1px 0;
         font-size: 12px;
     }
 
-    .latest ol li h3 {
+    .secondary .podcast h3 {
+        font-size: 20px;
+    }
+
+    .secondary .podcast p {
+        font-size: 16px;
+    }
+
+    .secondary .podcast time {
+        font-size: 12px;
+    }
+
+    .secondary .latest ol li time {
+        font-size: 12px;
+    }
+
+    .secondary .latest ol li h3 {
         font-size: 18px;
     }
 
-    .latest ol li span {
+    .secondary .latest ol li span {
         font-size: 14px;
     }
 
@@ -454,16 +520,28 @@ footer a {
         height: auto;
     }
 
-    .latest {
+    .secondary {
         width: 100%;
     }
 
-    .latest h2 {
+    .secondary .podcast {
         margin: 15px 30px;
+    }
+
+    .secondary .podcast h2 {
+        font-size: 12px;
+    }
+
+    .secondary .podcast h3 {
         font-size: 18px;
     }
 
-    .latest ol {
+    .secondary .latest h2 {
+        margin: 30px 30px 15px 30px;
+        font-size: 18px;
+    }
+
+    .secondary .latest ol {
         margin: 15px 30px 30px 30px;
     }
 
@@ -518,11 +596,11 @@ footer a {
         top: 0;
     }
 
-    .latest h2 {
+    .secondary .latest h2 {
         margin: 15px;
     }
 
-    .latest ol {
+    .secondary .latest ol {
         margin: 15px;
     }
 
