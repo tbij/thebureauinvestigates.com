@@ -3,12 +3,12 @@ layout: front
 ---
 
 <div class="featured">
-  <a href="{{ site.data.front.featured.location }}">
-    <img src="{{ site.data.front.featured.image }}" alt=""/>
+  <a href="{{ site.data.front.current[0].location }}">
+    <img src="{{ site.data.front.current[0].image }}" alt=""/>
     <div>
-      <time>{{ site.data.front.featured.date }}</time>
-      <h3>{{ site.data.front.featured.title }}</h3>
-      <span>{{ site.data.front.featured.trail }}</span>
+      <time>{{ site.data.front.current[0].date }}</time>
+      <h3>{{ site.data.front.current[0].title }}</h3>
+      <span>{{ site.data.front.current[0].trail }}</span>
     </div>
   </a>
 </div>
@@ -20,7 +20,7 @@ layout: front
 <div class="current">
   <h2>Current</h2>
   <ol>
-{% for story in site.data.front.current %}
+{% for story in site.data.front.current offset: 1 %}
     <li>
       <a href="{{ story.location }}">
         <img src="{{ story.image }}" alt=""/>

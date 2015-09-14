@@ -1,12 +1,12 @@
 {
-    "featured": {
-        "title": "Amid the fog of war, do we actually know who belongs to al Qaeda in Yemen now?",
-        "trail": "Distinguishing between militants in Yemen and those merely associated with them is getting harder as the country’s war drags on.",
-        "location": "https://www.thebureauinvestigates.com/2015/07/01/drone-war-report-january-june-2015-controversial-signature-strikes-hit-yemen-and-pakistan/",
-        "image": "https://www.thebureauinvestigates.com/wp-content/uploads/2015/06/Screen-Shot-2015-06-30-at-14.40.04-701x395.png",
-        "date": "1st July 2015"
-    },
     "current": [
+        {
+            "title": "Amid the fog of war, do we actually know who belongs to al Qaeda in Yemen now?",
+            "trail": "Distinguishing between militants in Yemen and those merely associated with them is getting harder as the country’s war drags on.",
+            "location": "https://www.thebureauinvestigates.com/2015/07/01/drone-war-report-january-june-2015-controversial-signature-strikes-hit-yemen-and-pakistan/",
+            "image": "https://www.thebureauinvestigates.com/wp-content/uploads/2015/06/Screen-Shot-2015-06-30-at-14.40.04-701x395.png",
+            "date": "1st July 2015"
+        },
         {
             "title": "Now the UK housing crisis is threatening our economy",
             "trail": "As George Osborne outlines a series of proposals to tackle the housing crisis, what exactly is the future for affordable housing?",
