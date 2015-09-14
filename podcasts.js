@@ -20,7 +20,7 @@ function Podcasts() {
             description.innerHTML = response[0].description
             anchor.appendChild(description)
             var time = document.createElement('time')
-            time.innerHTML = new Date(response[0].created_at).toLocaleString()
+            time.innerHTML = new Date(response[0].created_at).toDateString().substring(4)
             anchor.appendChild(time)
         })
     })
