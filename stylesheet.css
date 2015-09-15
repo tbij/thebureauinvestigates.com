@@ -525,7 +525,7 @@ footer a {
     }
 
     .secondary .podcast {
-        margin: 15px 30px;
+        margin: 15px;
     }
 
     .secondary .podcast h2 {
@@ -597,7 +597,7 @@ footer a {
     }
 
     .secondary .latest h2 {
-        margin: 15px;
+        margin: 30px 15px 15px 15px;
     }
 
     .secondary .latest ol {
